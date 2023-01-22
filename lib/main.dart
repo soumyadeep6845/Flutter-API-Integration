@@ -20,4 +20,12 @@ class MyApp extends StatelessWidget {
       home: HomePage(),
     );
   }
+
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'Flutter Loader Integration',
+      home: HomePage()
+    );
+  }
 }
